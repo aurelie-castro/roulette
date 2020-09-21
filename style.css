@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.roulette, .chiffres {
+.roulette, .chiffres, .gauche {
   display: flex;
 }
 
@@ -15,4 +15,3 @@ body {
     border: 1px solid black;
 }
 
-.row
