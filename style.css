@@ -1,17 +1,47 @@
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background-color: green;
+}
+
+h1{
+  margin-left: 600px;
+  color:white;
+}
+
+div{
+  color:white;
 }
 
 .roulette, .chiffres, .gauche {
   display: flex;
 }
 
-.two-square{
-    border: 1px solid black;
+.two-square, .even, .red-circle, .black-circle, .odd, .nineteen-twelve, .second-twelve, .third-twelve{
+    border: 1px solid white;
 }
 
 .chiffres, .chiffre, .zero, .first-twelve{
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
+.roulette{
+  margin-left: 600px;
+}
+
+.gauche{
+  margin-top: 53px;
+}
+
+
+.black{
+  border-radius: 50px;
+  background-color:black;
+}
+
+.red{
+  border-radius: 60px;
+  background-color: red;
+}
