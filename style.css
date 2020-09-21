@@ -1,0 +1,18 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.roulette, .chiffres {
+  display: flex;
+}
+
+.two-square{
+    border: 1px solid black;
+}
+
+.chiffres, .chiffre, .zero, .first-twelve{
+    border: 1px solid black;
+}
+
+.row
