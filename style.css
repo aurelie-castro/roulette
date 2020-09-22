@@ -1,3 +1,4 @@
+/* general */
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -6,14 +7,19 @@ body {
   background-color: green;
 }
 
+div{
+  color:white;
+}
+
+.roulette{
+  margin-left: 550px;
+}
+
+/* title */
 h1{
   margin-left: 600px;
   color:white;
   font-family: 'Cookie', cursive;
-}
-
-div{
-  color:white;
 }
 
 .roulette, .chiffres, .gauche {
@@ -24,19 +30,17 @@ div{
     border: 2px solid white;
 }
 
-.chiffres, .chiffre, .black-circle, .other{
-    border: 1px solid white;
-}
-
-.roulette{
-  margin-left: 550px;
-}
-
+/* gauche */
 .gauche{
   margin-top: 53px;
 }
 
+.even, .cent-dix-huit, .first-twelve, .second-twelve, .third-twelve, .odd, .nineteen{
+  transform: rotate(90deg);
+}
 
+
+/* droite */
 .black{
   border-radius: 50px;
   background-color:black;
@@ -52,10 +56,6 @@ div{
   text-align: center;
 }
 
-.even, .cent-dix-huit, .first-twelve, .second-twelve, .third-twelve, .odd, .nineteen{
-  transform: rotate(90deg);
-}
-
 .zero{
   text-align: center;
 }
@@ -63,5 +63,9 @@ div{
 .chiffre{
   padding-right:10px;
   padding-left: 10px;
+}
+
+.chiffres, .chiffre, .black-circle, .other{
+  border: 1px solid white;
 }
 
