@@ -19,16 +19,16 @@ div{
   display: flex;
 }
 
-.two-square, .even, .red-circle, .black-circle, .odd, .nineteen-twelve, .second-twelve, .third-twelve{
-    border: 1px solid white;
+.two-square, .even, .nineteen-twelve, .second-twelve, .nineteen, .zero{
+    border: 2px solid white;
 }
 
-.chiffres, .chiffre, .zero, .first-twelve{
+.chiffres, .chiffre, .black-circle, .other{
     border: 1px solid white;
 }
 
 .roulette{
-  margin-left: 600px;
+  margin-left: 550px;
 }
 
 .gauche{
@@ -39,9 +39,28 @@ div{
 .black{
   border-radius: 50px;
   background-color:black;
+  text-align: center;
+  /* width:33px;
+  height:26px;
+  margin-top: 1px; */
 }
 
 .red{
   border-radius: 60px;
   background-color: red;
+  text-align: center;
 }
+
+.even, .cent-dix-huit, .first-twelve, .second-twelve, .third-twelve, .odd, .nineteen{
+  transform: rotate(90deg);
+}
+
+.zero{
+  text-align: center;
+}
+
+.chiffre{
+  padding-right:10px;
+  padding-left: 10px;
+}
+
